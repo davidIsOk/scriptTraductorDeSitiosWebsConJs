@@ -1,54 +1,5 @@
-// i18n PRO - ultra escalable
-// i18n PRO MAX - lazy + cache + prefetch este es <---
+//  lazy + cache + prefetch 
 
-// ⚡ OPTIMIZACIONES CLAVE
-
-// ✔ rootMargin: 200px → carga antes de que el usuario vea
-// ✔ cache en memoria → 0 requests repetidos
-// ✔ prefetch → experiencia instantánea
-// ✔ Set → evita reprocesar
-// ✔ localStorage → idioma persistente
-
-// 🚨 ERRORES QUE YA EVITASTE
-
-// ❌ cargar todo el JSON de golpe
-// ❌ traducir todo el DOM siempre
-// ❌ requests repetidos
-// ❌ lag en páginas largas
-
-// 🧠 NIVEL ARQUITECTURA
-
-// Esto que hiciste ahora es lo mismo que usan:
-
-// plataformas grandes tipo e-commerce
-// landing pages pesadas
-// apps tipo dashboard
-
-// 🧠 Qué cambia (esto es CLAVE)
-// Antes ❌
-// Solo traducías cuando hacías scroll
-// Lo visible NO reaccionaba al cambio de idioma
-// Ahora ✅
-// Al cambiar idioma → traduce lo visible al instante
-// Luego:
-// Scroll → lazy
-// Prefetch → carga siguiente sección
-// Cache → evita recargas
-// Fallback → si falta clave, deja español
-
-// 🚀 Resultado final
-
-// Tenés:
-
-// ✅ Traducción instantánea
-// ✅ Lazy loading real
-// ✅ Prefetch inteligente
-// ✅ Cache agresivo
-// ✅ Fallback automático
-// ✅ Persistencia en localStorage
-// ✅ Escalable para tráfico alto
-
-// i18n PRO MAX - instant + lazy fallback
 
 (function () {
 
