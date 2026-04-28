@@ -367,4 +367,4 @@
   });
 
 })();
-console.log("i18n.js");
+//testear carga del archivo console.log("i18n.js");
